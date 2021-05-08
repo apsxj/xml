@@ -101,7 +101,7 @@ class Node
 
       foreach ($this->attributes as $k => $v) {
         if ($k == $v) {
-          $str .= $k;
+          $str .= ' ' . $k;
         } else {
           $str .= ' ' . $k . '="' . $v . '"';
         }
