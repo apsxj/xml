@@ -30,6 +30,13 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 4. To create an `Response` object and render it:
 
 ```PHP
+<?php
+
+// unwrap classes from the apsxj\xml namespace
+use apsxj\xml\Node;
+use apsxj\xml\Doc;
+use apsxj\xml\Response;
+
 // Create the doctype declaration node
 $doctype = Node::element(
   '!DOCTYPE',
