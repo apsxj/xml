@@ -1,0 +1,18 @@
+{
+    "name": "apsxj/xml",
+    "description": "XML Parsing and Response Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roderic Linguri",
+            "email": "apsxj@mail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "apsxj\\xml\\": "src/"
+      }
+    },
+    "require": {}
+}
